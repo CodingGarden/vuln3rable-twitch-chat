@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>vuln3rable</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="header">
+      <span>This page will render <em>some</em> HTML in messages. The page will reset every 5 minutes.</span>
+    </div>
+    <div id="messages">
+      <h1 id="loading">Reconnecting to chat server...</h1>
+    </div>
+    <script src="tmi.min.js"></script>
+    <script src="purify.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

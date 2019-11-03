@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+  font-family: Roobert,Helvetica Neue,Helvetica,Arial,sans-serif!important;
+  overflow: hidden;
+  position: relative;
+}
+
+#header {
+  position: fixed;
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+  top: 0;
+  width: 100%;
+  padding: 0.25rem;
+}
+
+#loading {
+  margin-top: 5rem;
+  width: 100%;
+  text-align: center;
+}
+
+#messages {
+  margin: 4vh;
+  height: 92vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+  outline: 8vh solid hsla(0, 0%, 100%, .6);;
+}
+
+.message {
+  padding: 0.5rem;
+}
+
+.message .time {
+  color: hsla(0, 0%, 100%, .6);
+}
+
+.message .username {
+  font-weight: bold;
+}
